@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter,Routes,Route } from "react-router";
 import AboutPage from "./Pages/AboutPage.jsx"
-import ContactPage from './Pages/ContactPage.jsx';
+// import ContactPage from './Pages/ContactPage.jsx';
 import { BookAIcon, Contact } from 'lucide-react';
 import TopNavbar from './Components/TopNavbar.jsx';
 import BottomNavbar from './Components/BottomNavbar.jsx';
@@ -26,7 +26,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<AboutPage/>} />
-      <Route path="/Contact" element={<ContactPage/>} />
+      {/* <Route path="/Contact" element={<ContactPage/>} /> */}
       <Route path="/login" element={<LoginPage/>} />
       <Route path="/register" element={<RegisterPage/>} />
       <Route path="/dashboard" element={<DashboardPage/>} />

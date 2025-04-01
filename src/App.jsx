@@ -6,7 +6,7 @@ import FeedSection from './Components/FeedSection'
 export default function App() {
   return (
     <div>
-    <TopNavbar/>
+    {/* <TopNavbar/> */}
     {/* <BottomNavbar/> */}
     <FeedSection/>
     

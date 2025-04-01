@@ -1,5 +1,8 @@
 import React from 'react'
-import ball from "../../../blog/src/images/ball.webp"
+// import ball from "../../src/images/ball.webp"
+import ball from "../images/ball.webp"
+
+
 import { NavLink } from "react-router"
 
 

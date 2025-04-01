@@ -27,19 +27,25 @@ export default function BottomNavbar() {
         </NavLink>
         </div>
         <p><Search /></p>
-        <p><Moon />
+        <p><Moon /></p>
+        <p>
+        <label class="switch">
+  <input type="checkbox" checked></input>
+  <span class="slider round"></span>
+</label>
 
+
+</p>
+<p><Menu /></p>
+
+</div>
         
-        </p>
-        <p><Menu /></p>
         
-
-
-      </div>
-      </div>
-      
       
       </div>
-      </div>
+      </div>  
+      
+ </div>
+
   )
 }
